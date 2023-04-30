@@ -37,17 +37,17 @@ def enumerar_peliculas(carpeta, texto):
 
 # Leer archivos
 def leer_peliculas(pelicula):
-    with open(catalogo / f"{pelicula}.txt", "r") as file:
+    with open(catalogo / f"{pelicula}.txt", "r",encoding="ISO-8859-1") as file:
         print(file.read())
 
 # Mover archivos a papelera
 def mover_papelera(pelicula):
-    shutil.move(catalogo/f"{pelicula}.txt", carpeta_reciclaje)
+    shutil.move(str(catalogo/f"{pelicula}.txt"), str(carpeta_reciclaje))
     print(f"\nLa película '{pelicula}' fue movida a la papelera de reciclaje")
 
 # Restaurar archivo de la papelera
 def restaurar_papelera(pelicula):
-    shutil.move(carpeta_reciclaje/f"{pelicula}.txt", catalogo)
+    shutil.move(str(carpeta_reciclaje/f"{pelicula}.txt"), str(catalogo))
     print(f"\nLa película '{pelicula}' fue restaurada exitosamente")
 
 # Eliminar archivos
