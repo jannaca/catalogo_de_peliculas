@@ -2,6 +2,23 @@
 <h2 align="center">Proyecto final -  Bootcamp programacion desde cero: Codigo Facilito 🐊</h2>
 
 
-Este proyecto consiste en un catálogo de resúmenes de películas donde el usuario podrá listar, leer, eliminar, mover a papelera y restaurar de la papelera los resúmenes de películas almacenados en la carpeta Peliculas. Todo esto ejecutado y manejado mediante la consola. 
+# Catálogo de Películas
 
-Para desarrollar este proyecto se utilizó Pyhton como lenguaje y los módulos de pathLib y shutil.Se Implementó el uso de varias funciones que realizan las distintas acciones antes mencionadas como eliminar, leer, listar, asi como también funciones para validar que la película exista e imprimir los datos en consola.
+Este proyecto consiste en un catálogo de resúmenes de películas en Python, ejecutable en terminal, que permite al usuario enlistar, leer y eliminar películas almacenadas en la carpeta "Peliculas". El proyecto fue desarrollado como parte del Bootcamp "Programación desde Cero" de Código Facilito.
+
+## Características
+
+- Listar: Permite mostrar en consola los resúmenes de todas las películas disponibles en el catálogo.
+- Leer: Permite al usuario seleccionar una película y mostrar su resumen en detalle.
+- Eliminar: Permite al usuario eliminar una película del catálogo.
+- Papelera: Las películas eliminadas se mueven a la papelera y se pueden restaurar desde allí.
+
+## Requisitos
+
+- Python.
+- Módulos: pathlib, shutil.
+
+## Uso
+1. Clona el repositorio.
+2. Navega al directorio del proyecto.
+3. Ejecuta el programa.
